@@ -15,7 +15,7 @@ import time, random, multiprocessing, sys, json, codecs, threading, glob, re, st
 from gtts import gTTS
 from googletrans import Translator
 
-client = LINE("EyN1htofUzqljWAg2khb.VHH0q0Dhr8pSns5/+RsmgW.JoW4knU3ersrLmDHD6VTS9Lc1rXX6vTo5IEZ+f+GNZM=")
+client = LINE("TOKEN")
 clientMid = client.profile.mid
 clientProfile = client.getProfile()
 clientSettings = client.getSettings()
